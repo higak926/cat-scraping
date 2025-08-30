@@ -4,26 +4,26 @@ import catBeerUrl from "../../assets/cat_beer.png";
 
 function Header() {
   const [count, setCount] = useState(0);
-  const beforeStyles = [
-    "whitespace-nowrap",
-    "rounded",
-    "bg-black",
-    "px-2",
-    "py-1",
-    "text-white",
-    "absolute",
-    "-top-12",
-    "left-1/2",
-    "-translate-x-1/2",
-    "before:content-['']",
-    "before:absolute",
-    "before:-translate-x-1/2",
-    "before:left-1/2",
-    "before:top-full",
-    "before:border-4",
-    "before:border-transparent",
-    "before:border-t-black",
-  ].join(" ");
+  // const beforeStyles = [
+  //   "whitespace-nowrap",
+  //   "rounded",
+  //   "bg-black",
+  //   "px-2",
+  //   "py-1",
+  //   "text-white",
+  //   "absolute",
+  //   "-top-12",
+  //   "left-1/2",
+  //   "-translate-x-1/2",
+  //   "before:content-['']",
+  //   "before:absolute",
+  //   "before:-translate-x-1/2",
+  //   "before:left-1/2",
+  //   "before:top-full",
+  //   "before:border-4",
+  //   "before:border-transparent",
+  //   "before:border-t-black",
+  // ].join(" ");
 
   return (
     <>
