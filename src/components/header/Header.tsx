@@ -4,6 +4,8 @@ import catBeerUrl from "../../assets/cat_beer.png";
 
 function Header() {
   const [count, setCount] = useState(0);
+  console.log("hello");
+
   // const beforeStyles = [
   //   "whitespace-nowrap",
   //   "rounded",
