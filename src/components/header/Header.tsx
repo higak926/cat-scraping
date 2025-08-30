@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./Header.css";
+import catBeerUrl from "../../assets/cat_beer.png";
 
 function Header() {
   const [count, setCount] = useState(0);
@@ -28,10 +29,7 @@ function Header() {
     <>
       <div className="p-3 flex items-center">
         <a href="/">
-          <img
-            src="src/assets/cat_beer.png"
-            className="w-24 rounded-full"
-          ></img>
+          <img src={catBeerUrl} className="w-24 rounded-full"></img>
         </a>
         <div
           className="ml-3 p-2 border border-cyan-500 tooltip-arrow"
